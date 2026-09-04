@@ -3,7 +3,7 @@
 package_name: oh-my-posh
 github_repo: JanDeDobbeleer/oh-my-posh
 license: MIT
-artifact_format: binary
+artifact_format: raw
 description: "Cross-platform/shell prompt renderer"
 
 architectures:
