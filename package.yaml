@@ -1,0 +1,15 @@
+# Package definition for oh-my-posh
+
+package_name: oh-my-posh
+github_repo: JanDeDobbeleer/oh-my-posh
+license: MIT
+artifact_format: binary
+description: "Cross-platform/shell prompt renderer"
+
+architectures:
+  amd64:
+    release_pattern: "posh-linux-amd64"
+  arm64:
+    release_pattern: "posh-linux-arm64"
+  armhf:
+    release_pattern: "posh-linux-arm"
